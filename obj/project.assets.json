@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
-      "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ConsoleApp1\\ConsoleApp1\\progect 1.csproj",
+      "projectName": "progect 1",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\ConsoleApp1\\ConsoleApp1\\progect 1.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\ConsoleApp2\\ConsoleApp2\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

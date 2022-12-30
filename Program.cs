@@ -1,36 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Diagnostics.Metrics;
 
-Console.WriteLine("enter n1");
-int n1 = int.Parse(Console.ReadLine());
-Console.WriteLine("enter n2");
-int n2 = int.Parse(Console.ReadLine());
-Console.WriteLine("");
+int first, second, x, y, sum;
+Console.WriteLine("Enter the first");
+first = int.Parse(Console.ReadLine());
 
-for (var i = n1; i <= n2; i++ )
+Console.WriteLine("Enter the second");
+second = int.Parse(Console.ReadLine());
 
-
+for (x = first; x <= second; x++)
 {
-    bool isprimenumber = true;
+    y = 1;
+    sum = 0;
+    while (y < x)
+    {
+        if (x % y == 0)
+            sum = sum + y;
+        y++;
+    }
+    if (sum == x && x != 0)
 
-    for (var j = 2; j < i; j++)
-    {
-        if(i % j ==0)
-        {
-            isprimenumber = false;
-            break;
-        }
-    }
-    if(isprimenumber)
-    {
-        Console.WriteLine(i + " - ");
-    }
+        Console.WriteLine("{0}", x);
 }
-
-
-
-
-
-
-
-
+        
+    
